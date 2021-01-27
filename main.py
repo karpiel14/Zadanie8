@@ -1,0 +1,5 @@
+txt_file = open('read_file.txt', 'w')
+txt_file.write('Fisrt line.\nSecond line.\nThrid line.')
+txt_file = open('read_file.txt', 'r')
+print(txt_file.read())
+txt_file.close()
